@@ -1,0 +1,67 @@
+body{
+	background-color: black;
+}
+.rows1{
+	width: 100%;
+	height: 500px;
+/*	background-color: gold;*/
+}
+.viplading{
+	width: 100%;
+	height: 400px;
+	background-color:gray;
+}
+#circle{
+	width: 70px;
+	height: 70px;
+	border:1px black solid ;
+	background-color:white ;
+	border-radius: 35px;
+	margin: auto;
+	padding-left: 3%;
+}
+#viplading{
+	width: 40%;
+	height: 50px;
+	margin-top: 20px;
+    border: 1px black solid;
+    margin-left: 30%;
+    padding-top: 10px;
+    border-radius:25px;
+}
+#lading{
+	display: inline-block;
+	margin-left: 10%;
+		font-size:20px ;
+}
+#register{
+	display: inline-block;
+		margin: auto;
+		font-size:20px ;
+		margin-left: 10%;
+}
+#vipright{
+	width: 100%;
+	height: 50px;
+	margin-top:10px ;
+}
+#vipgrade{
+	width: 100%;
+	height: 50px;
+}
+#grade{
+	margin-left: 20%;
+}
+
+a:link{
+color: black;
+}
+a:visited{
+color: black;
+}
+a:hover{
+color: black;
+}
+a:active{
+color: black;
+}

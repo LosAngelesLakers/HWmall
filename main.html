@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="shortcut icon" href="huawei.icon" type="image/huawei-icon">
+		<link rel="stylesheet" href="css/top.css" />
+		<script src="js/echarts.min.js"></script>
+
+		<style>
+			body {
+				background-color: #EBEBEB;
+				height: 2000px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" style="margin-bottom: 50px;">
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<img src="img/wwwwwwwwwwwwww.png" class="img-responsive" alt="Responsive image">
+				</div>
+				<div class="col-sm-9 col-md-9 col-lg-4 col-lg-push-1">
+					<p class="text-center">
+						<h2>华为商城后台系统</h2></p>
+				</div>
+
+			</div>
+			<div class="row" >
+				<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+					<div class="box" style="width: 100%;height: 150px;background-color:#17D57E;">
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">手机销量</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">今日销量：200</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">总计：1500</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-xs-4  col-sm-3 col-sm-push-1  col-md-3 col-md-push-1 col-lg-3 col-lg-push-1">
+					<div class="box" style="width: 100%;height: 150px;background-color:#2DA3FB;">
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">电脑销量</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">今日销量：700</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">今日销量：2200</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-4 col-sm-3 col-sm-push-2 col-md-3 col-md-push-2 col-lg-3 col-lg-push-2">
+					<div class="box" style="width: 100%;height: 150px;background-color:#C172D8;">
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">手环销量</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">今日销量：2200</p>
+						</div>
+						<div style="height: 50px;font-size: 20px;border-bottom: 1px black solid;padding-top: 10px;">
+							<p class="text-center">今日销量：12300</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-md-push-2 col-lg-8">
+				<div id="main" style="width: 100%;height:400px;margin-top: 50px;"></div>
+				<script type="text/javascript">
+					// 基于准备好的dom，初始化echarts实例
+					var myChart = echarts.init(document.getElementById('main'));
+
+					// 指定图表的配置项和数据
+					var option = {
+						title: {
+							text: '各类产品日销售量'
+						},
+						tooltip: {},
+						legend: {
+							data: ['销量']
+						},
+						xAxis: {
+							data: ["华为荣耀", "华为麦芒", "台式机", "笔记本", "ipd", "手环"]
+						},
+						yAxis: {},
+						series: [{
+							name: '销量',
+							type: 'bar',
+							data: [700, 200, 136, 100, 800, 1220]
+						}]
+					};
+
+					// 使用刚指定的配置项和数据显示图表。
+					myChart.setOption(option);
+				</script>
+
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-8 col-md-push-2 col-lg-8">
+				 <div id="main1" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        // 路径配置
+        require.config({
+            paths: {
+                echarts: 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/pie' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('main1')); 
+                
+                var option = {
+    backgroundColor: '#828689',
+    visualMap: {
+        show: false,
+        min: 80,
+        max: 600,
+        inRange: {
+            colorLightness: [1, 1]
+        }
+    },
+    series : [
+        {
+            name: '收入占比',
+            type: 'pie',
+            radius: '55%',
+            data:[
+                {value:235, name:'手机'},
+                {value:274, name:'电脑'},
+                {value:310, name:'手环'},
+                {value:335, name:'配件'},
+                {value:400, name:'广告'}
+            ],
+            roseType: 'angle',
+            label: {
+                normal: {
+                    textStyle: {
+                        color: 'rgba(102, 103, 109, 0.6)'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    lineStyle: {
+                        color: 'rgba(102, 103, 109, 0.6)'
+                    }
+                }
+            },
+            itemStyle: {
+                normal: {
+                    color: '#c23531',
+                    shadowBlur: 200,
+                    shadowColor:  'rgba(102, 103, 109, 0.6)'
+                }
+            }
+        }
+    ]
+};
+        
+                // 为echarts对象加载数据 
+                myChart.setOption(option); 
+            }
+        );
+    </script>
+
+
+
+	</div>		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="row">
+			     <div class="col-xs-6  col-xs-push-4    col-md-sm-12  col-sm-push-4    col-md-6  col-md-push-4      col-lg-6 col-lg-push-4">
+		              <h1>网站受访方式图</h1>
+		        </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-10 col-xs-push-1 col-md-sm-12 col-sm-push-1  col-md-6  col-md-push-3      col-lg-6 col-lg-push-3">
+            		<img src="img/shou.png" class="img-responsive" alt="Responsive image">
+            	</div>
+            </div>
+            <div class="row">
+			     <div class="col-xs-6  col-xs-push-4    col-md-sm-12  col-sm-push-4    col-md-6  col-md-push-4      col-lg-6 col-lg-push-4">
+		              <h1>网站访客实时动态图</h1>
+		        </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-10 col-xs-push-1 col-md-sm-12 col-sm-push-1  col-md-6  col-md-push-3      col-lg-6 col-lg-push-3">
+            		<img src="img/shouji.png" class="img-responsive" alt="Responsive image">
+            	</div>
+            </div>
+		</div>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+				<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+	</body>
+
+</html>

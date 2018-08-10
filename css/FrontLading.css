@@ -1,0 +1,124 @@
+body{
+	width: 100%;
+	height: 700px;
+	background-color:#EBEBEB;
+}
+.bigbox{
+     width: 100%;
+     height: 600px;
+	background-image:url(../img/413c932ad68030d5dc4ce87727d7b17.jpg) ;
+}
+
+
+.rows1{
+	width: 100%;
+	height: 71px;
+}
+/*.rows3{
+	margin-top:30px;
+}*/
+#nav{
+	width: 100%;
+	height: 71px;
+	background-color:red ;
+}
+
+
+#pic{
+	float: left;
+	
+}
+
+
+.rows2{
+	width: 100%;
+	height: 600px;
+	/*background-color: gold;*/
+}
+.ladingway{
+
+	height: 50px;
+	/*background-color: red;*/
+	font-size:25px ;
+}
+
+.ladingbox{
+	
+	height: 150px;
+/*	background-color: green;*/
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
+	margin-top:10px ;
+}
+#register{
+	/*background-color: red;*/
+	padding-right:-20% ;
+	
+}
+#forget{
+border-left: 1px black solid;
+	padding-left:20%;
+}
+#leftdownline{
+	border-bottom:1px black solid ;
+	margin-top:140px ;
+}
+#rightdownline{
+	border-bottom:1px black solid ;
+	margin-top:140px ;
+}
+#otherway{
+	color: black;
+	height: 20px;
+	margin-top:130px ;
+}
+.rows6{
+	height: 78px;
+	
+}
+.rows10{
+	width: 100%;
+	height: 40px;
+	/*background-color: red;*/
+  
+}
+.four{
+	height: 20px;
+/*	background-color:green ;*/
+}
+.rows11{
+	margin-top:10px ;
+	padding-top: 0px;
+	width: 100%;
+	height: 20px;
+/*	background-color:green ;*/
+}
+.dibu{
+	margin-left:10% ;
+}
+.rows3{
+	width: 100%;
+	height: 50px;
+	background-color:red ;
+}
+
+.one{
+	background-color: red;
+}

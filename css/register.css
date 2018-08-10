@@ -1,0 +1,131 @@
+body{
+	margin:0px ;
+	margin-top:0px ;
+	height: 800px;
+}
+.rows1{
+	width: 100%;
+	height: 70px;
+	background-color:#333333;
+}
+#nav{
+	width: 100%;
+	height: 70px;
+	/*background-color:red ;*/
+}
+
+
+#pic{
+	float: left;
+	margin-top:5px ;
+}
+
+#brand{
+	width: 50%;
+	height: 30px;
+	font-size:20px ;
+	color: white;
+	border-right-color:1px grey ;
+	text-align: center;
+	margin-top:19px ;
+}
+
+.one{
+	height: 35px;
+	/*background-color:red ;*/
+	margin-top: 35px;
+}
+.two{
+	height: 35px;
+	margin-left: 2%;
+	margin-top: 35px;
+}
+.three{
+height: 35px;
+	/*background-color:gold ;*/
+	margin-top: 35px;
+}
+#iphone{
+	height: 33px;
+	background-color:#B40707;
+	width: 90%;
+	padding-left:15%;
+	margin: auto;
+}
+#iphonenum{
+	font-size:25px ;
+	display: inline-block;
+	color: white;
+}
+#email{
+	height: 33px;
+	background-color:#CCCCCC;
+	width: 90%;
+	padding-left:15% ;
+	margin: auto;
+	
+}
+#emailnum{
+	font-size:25px ;
+	display: inline-block;
+	color: white;
+}
+#hwnum{
+	margin-top:25px;
+	margin: auto;
+	
+}
+#ladingpage{
+
+	
+}
+.country{
+	height: 46px;
+	font-size:20px;
+background-color:white ;
+padding-top:10px ;
+border: 1px gainsboro solid;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+padding-left: 10px;
+}
+.telnumber{
+	height: 46px;
+	font-size:20px;
+	
+background-color:white ;
+padding-top:10px ;
+border: 1px gainsboro solid;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+padding-left: 10px;
+}
+body{
+	background-color: #F2F2F2;
+}
+.rows10{
+	width: 100%;
+	height: 65px;
+	/*background-color: red;*/
+
+
+}
+.four{
+	height: 50px;
+	/*background-color:green ;*/
+}
+.rows11{
+	width: 100%;
+	height: 40px;
+	/*background-color:green ;*/
+	margin-left:8% ;
+	
+}
+.dibu{
+	margin-left:10% ;
+}
+.rows3{
+	width: 100%;
+	height: 600px;
+	background-color:#F2F2F2;
+}

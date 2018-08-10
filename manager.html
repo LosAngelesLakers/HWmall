@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="shortcut icon" href="huawei.icon" type="image/huawei-icon">
+	</head>
+
+	<body>
+		<div class="container-fluid"style="background-color: #EBEBEB;height: 1000px;">
+			<div class="row"">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<img src="img/wwwwwwwwwwwwww.png">
+				</div>
+				<div class="col-xs-8 col-xs-push-1 col-sm-9 col-md-8 col-lg-4 col-lg-push-1">
+					<p class="text-center">
+						<h1>华为商城后台网站</h1></p>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-xs-10 col-sm-10 col-md-6 col-lg-3">
+
+					<a href=""><span class="glyphicon glyphicon-home"></span></a>
+						
+						>>
+						<a href="">后台</a>>><a href="">管理员信息</a>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-lg-push-3">
+						<img src="img/guanliyuan.jpg" class="img-responsive" alt="Responsive image">
+
+					</div>
+					
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-3 col-lg-push-3"style="margin-top: 10px;">
+					   <div style="height:35px;font-size: 20px;">姓名:张三</div>
+					   <div style="height:35px;font-size: 20px;">性别：男</div>
+					   <div style="height:35px;font-size: 20px;">年龄：35</div>
+					   <div style="height:35px;font-size: 20px;">工龄：10</div>
+					   <div class="open" style="height:35px;font-size: 20px;">修改密码</div>
+				<div id="one">
+					 <form>
+						<div class="form-group">
+							<label for="exampleInputEmail1"></label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="原始密码">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1"></label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="新密码">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1"></label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="确认密码">
+						</div>
+						<div class="form-group">
+
+							<button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;">确定</button>
+
+						</div>
+					</form>
+					   		
+				</div>
+					  
+					</div>
+					
+				</div>
+				
+		
+			</div>
+
+			
+			
+		</div>
+	</body>
+	<script>
+	var open = document.querySelector(".open");
+		var flag = true;
+		open.onclick = function() {
+			var open = document.querySelector("#one");
+			if(flag) {
+				open.style.display = "none";
+				flag = false;
+			} else {
+				open.style.display = "block";
+				flag = true;
+			}
+		};
+</script>
+</html>

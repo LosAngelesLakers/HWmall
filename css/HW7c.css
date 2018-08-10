@@ -1,0 +1,83 @@
+.rows1{
+	width: 100%;
+	height: 30px;
+	margin-top:-5px ;
+}
+
+
+
+
+
+.rows2{
+	width: 100%;
+	height: 500px;
+	background-color:#F8F8F8;
+	margin-top: 10px;
+}
+#photo{
+	margin-top: 25px;
+}
+#jiesao{
+	width: 100%;
+	height: 500px;
+	/*background-color: red;*/
+	margin-top: 10px;
+
+}
+.jiesao-1{
+	/*background-color:red ;*/
+	width: 100%;
+	height: 50px;
+}
+
+.jiesao-2{
+	/*background-color:green;*/
+	width: 100%;
+	height: 30px;
+}
+
+.jiesao-3{
+	/*background-color:red ;*/
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.jiesao-4{
+	/*background-color:green;*/
+	width: 100%;
+	height: 30px;
+}
+.jiesao-5{
+	/*background-color:red ;*/
+	width: 100%;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rows3{
+	width: 100%;
+	height: 100px;
+/*	background-color:green ;*/
+}
+.rows4{
+	height: 30px;
+	width: 100%;
+
+background-color:chocolate ;
+}
+.rows5{
+	height: 100px;
+	width: 100%;
+margin-top:30px ;
+background-color:goldenrod ;
+}

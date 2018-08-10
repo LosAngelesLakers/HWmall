@@ -1,0 +1,188 @@
+::-webkit-scrollbar{
+	display: none;
+}
+
+
+.rows30 {
+	width: 100%;
+	height: 50px;
+	background-color:#EBEBEB;
+	border-bottom:2px gray solid ;
+}
+
+#logopic {
+	height: 50px;
+	float: left;
+	margin-left: 3%;
+	margin-top: 5px;
+}
+
+#mycar {
+	height: 50px;
+	font-size: 25px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 5px;
+}
+#lading{
+	height: 50px;
+	font-size: 15px;
+	float: left;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+#resiter{
+	height: 50px;
+	font-size: 15px;
+	float: left;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+#mymenu{
+	height: 50px;
+	font-size: 15px;
+	float: left;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+.rows2{
+	height: 100px;
+	background-color: grey;
+}
+.rows3{
+	width: 100%;
+	height: 100px;
+	/*background-color:gold ;*/
+}
+#form{
+	width: 80%;
+	height: 100px;
+	margin-left: 10%;
+	font-size:20px;
+	margin-top: 20px;
+}
+.rows19{
+	height: 160px;
+	background-color:#F0F0F0;
+	margin-top:25px ;
+	
+}
+.tubiao-1{
+	padding-top:15% ;
+	float: left;
+	height: 50px;
+	height: 100%;
+} 
+.fuwu-1{
+	float: left;
+	height: 50px;
+	height: 100%;
+	padding-top:19% ;
+	font-size: 20px;
+}
+.rows20{
+	height: 200px;
+	background-color:#F0F0F0;
+	margin-top:30px ;
+}
+#aboutbuy{
+	font-size:15px ;
+}
+.rows21{
+	margin-top: 30px;
+	height: 200px;
+	background-color:#F0F0F0;
+}
+body{
+	height: 1000px;
+}
+
+th{
+	style="text-align: center;
+}
+
+#content{
+	width: 75%;
+	max-height: 400px;
+	margin-left: 10%;
+	margin-top:10px;
+	overflow: scroll;
+}
+._buyproduct{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;	
+	font-size: 15px;
+    margin-bottom:50px;
+    margin-top: 15px;
+	justify-content: flex-start;
+	
+
+}
+
+
+.buyproduct{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	border: 1px gray solid;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.radios{
+	width: 140px;
+	height: 30px;
+	text-align: center;
+}
+
+.Pinter{
+	width: 350px;
+	height: 30px;
+	text-align:start;
+}
+.buy{
+	width: 130px;
+	height: 30px;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.buy01{
+	width: 130px;
+	height: 30px;
+	text-align: center;
+}
+.num{
+	width: 50px;
+	height: 20px;
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+}
+.nums{
+	width: 50px;
+	height:30px;
+    margin-top: 8px;
+
+}
+
+
+#reduce{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.increase{
+	
+	display: flex;
+	align-content: center;
+	justify-content: center;
+    margin-left: 10px;
+	font-size: 20px;
+	margin-top: 3px;
+}
